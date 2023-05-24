@@ -8,7 +8,7 @@ provider "aws" {
 
 resource "aws_instance" "ronak-EC2" {
 
-  instance_type = "t2-micro"
+  instance_type = "t2.micro"
   ami           = "ami-0d86c69530d0a048e"
 
   tags        = var.tags_ronak
